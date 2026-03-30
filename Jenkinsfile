@@ -24,7 +24,7 @@ pipeline {
                 '''
             }
         }
-        stage('Deploy to EKS (elastic kubernetes service') {
+        stage('Deploy to EKS (elastic kubernetes service one more') {
             steps {
                 sh '''
                 kubectl apply -f deployment.yaml
